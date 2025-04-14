@@ -7,9 +7,9 @@ document.addEventListener("DOMContentLoaded", function () {
         if (document.getElementById("membersInfo")) return;
 
         const members = [
-            { name: "Tom", image: "https://i.imgur.com/1XnFfGZ.png" },
+            { name: "Tom", image: "./img/anne.jpg" },
             { name: "Jerry", image: "https://i.imgur.com/GykXzRz.png" },
-            { name: "Spike", image: "./img/download.png" }
+            { name: "Spike", image: "./img/spike.png" }
         ];
 
         const container = document.createElement("div");
