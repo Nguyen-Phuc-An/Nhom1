@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const members = [
             { name: "Tom", image: "./img/anne.jpg" },
-            { name: "Jerry", image: "https://i.imgur.com/GykXzRz.png" },
+            { name: "Jerry", image: "./img/jerry.png" },
             { name: "Spike", image: "./img/spike.png" }
         ];
 
