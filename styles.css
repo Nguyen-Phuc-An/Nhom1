@@ -1,0 +1,100 @@
+/* styles.css - Giao diện nâng cấp hiện đại và đẹp mắt */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    color: #333;
+    padding: 40px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+/* Main Content */
+main {
+    background-color: #ffffffd9;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+
+main:hover {
+    transform: scale(1.01);
+}
+
+/* Button Style */
+button#actionButton {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 15px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+button#actionButton:hover {
+    background-color: #ff4d4d;
+    transform: scale(1.05);
+}
+
+/* Instructions Section */
+section#instructions {
+    background-color: #ffffffd9;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Titles & Headings */
+section#instructions h2 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+section#instructions h3 {
+    margin-top: 25px;
+    color: #555;
+    font-size: 20px;
+}
+
+/* List Styling */
+section#instructions ul {
+    margin-left: 20px;
+    margin-top: 10px;
+    list-style-type: disc;
+}
+
+section#instructions ul li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+/* Code Tag */
+code {
+    background-color: #e3e3e3;
+    padding: 4px 6px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+}
